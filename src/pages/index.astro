@@ -1,0 +1,27 @@
+---
+import Base from "@/layouts/Base.astro";
+import Hero from "@/components/Hero.astro";
+import Statistics from "@/components/Statistics";
+import CallToAction from "@/partials/CallToAction.astro";
+import FAQ from "@/partials/FAQ";
+import KeyFeatures from "@/partials/KeyFeatures.astro";
+import WhyChooseUs from "@/partials/WhyChooseUs.astro";
+import { getListPage } from "@/lib/contentParser";
+
+const homepage = await getListPage("homepage/-index.md");
+const key_features = await getListPage("sections/key-features.md");
+const whyChooseUs = await getListPage("sections/why-choose-us.md");
+const faq = await getListPage("sections/faq.md");
+const callToAction = await getListPage("sections/call-to-action.md");
+const statistics = await getListPage("sections/statistics.md");
+const { banner } = homepage.frontmatter;
+---
+
+<Base>
+  <Hero data={banner} />
+  <Statistics data={statistics} client:visible />
+  <KeyFeatures data={key_features} />
+  <WhyChooseUs data={whyChooseUs} />
+  <FAQ data={faq} client:visible />
+  <CallToAction data={callToAction} />
+</Base>

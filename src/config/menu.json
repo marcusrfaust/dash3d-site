@@ -1,0 +1,41 @@
+{
+  "main": [
+    {
+      "name": "Início",
+      "url": "/"
+    },
+    {
+      "name": "Módulos",
+      "url": "/#modulos"
+    },
+    {
+      "name": "Frota",
+      "url": "/#frota"
+    },
+    {
+      "name": "Perguntas",
+      "url": "/#faq"
+    }
+  ],
+  "footer_company": [
+    {
+      "name": "Início",
+      "url": "/"
+    },
+    {
+      "name": "Módulos",
+      "url": "/#modulos"
+    },
+    {
+      "name": "Acessar o Dash3D",
+      "url": "https://3d.focol.ai"
+    }
+  ],
+  "footer_resource": [
+    {
+      "name": "Falar com a Focol",
+      "url": "mailto:3d@focol.ai?subject=Quero%20conhecer%20o%20Dash3D"
+    }
+  ],
+  "footer_legal": []
+}

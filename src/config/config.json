@@ -1,0 +1,53 @@
+{
+  "site": {
+    "title": "Dash3D — gestão da fábrica 3D da Focol",
+    "base_url": "https://dash3d-site.pages.dev/",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "137",
+    "logo_height": "46",
+    "logo_text": "Dash3D"
+  },
+
+  "settings": {
+    "sticky_header": true,
+    "pagination": 9,
+    "summary_length": 200,
+    "blog_folder": "blog",
+    "case_studies_folder": "case-studies",
+    "career_folder": "careers"
+  },
+  "params": {
+    "contact_form_action": "#",
+    "apply_form_action": "#",
+    "newsletter_form_action": "#",
+    "footer_text": "Sistema próprio da Focol para gerir a fábrica 3D em tempo real",
+    "mail": "3d@focol.ai",
+    "phone": "",
+    "copyright": "Dash3D é um sistema da [Focol](https://3d.focol.ai)."
+  },
+
+  "navigation_button": {
+    "enable": false,
+    "label": "",
+    "link": ""
+  },
+
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  },
+
+  "metadata": {
+    "meta_author": "Focol",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "O Dash3D acompanha a fábrica 3D da Focol em tempo real: impressão ao vivo, produtos e receitas, estoque, custos e histórico."
+  },
+
+  "open-remark-comment": {
+    "enable": false,
+    "siteKey": ""
+  }
+}
