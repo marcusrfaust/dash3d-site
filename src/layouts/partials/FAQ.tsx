@@ -39,6 +39,9 @@ const FAQ = ({ data }: { data: PageData }) => {
                     dangerouslySetInnerHTML={markdownify(title)}
                   />
                   {subtitle && <p className="text-lg mt-4">{subtitle}</p>}
+                  <a href="https://3d.focol.ai" target="_blank" rel="noopener" aria-label="Focol" className="inline-block mt-6 opacity-90 hover:opacity-100 transition-opacity">
+                    <img src="/images/focol-logo.svg" alt="Focol" width={168} height={48} loading="lazy" />
+                  </a>
                 </div>
               </div>
 
