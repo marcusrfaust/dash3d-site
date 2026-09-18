@@ -10,7 +10,7 @@ banner:
     enable: false
     label: ""
     images: []
-  image: "/images/dash3d/1440-products.png"
+  image: "/images/dash3d/real-hero-tower.png"
   button_dark:
     enable: true
     label: "Conhecer os módulos"
